@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">UTS Kel 4</string>
+    <string name="title">F1 2023</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="team">Team</string>
+    <string name="fullName">Full Name</string>
+    <string name="title_driver">Driver F1</string>
+
+    <string-array name="data_first_name">
+        <item>Max</item>
+        <item>Sergio</item>
+        <item>Fernando</item>
+        <item>Lewis</item>
+        <item>Carlos</item>
+        <item>Lance</item>
+        <item>George</item>
+        <item>Lando</item>
+        <item>Nico</item>
+        <item>Charles</item>
+    </string-array>
+
+    <string-array name="data_last_name">
+        <item>Verstappen</item>
+        <item>Perez</item>
+        <item>Alonso</item>
+        <item>Hamilton</item>
+        <item>Sainz</item>
+        <item>Stroll</item>
+        <item>Russell</item>
+        <item>Norris</item>
+        <item>Hulkenberg</item>
+        <item>Lecrec</item>
+    </string-array>
+
+    <integer-array name="data_photo_driver">
+        <item>@drawable/max</item>
+        <item>@drawable/sergio</item>
+        <item>@drawable/alonso</item>
+        <item>@drawable/hamilton</item>
+        <item>@drawable/sainz</item>
+        <item>@drawable/lance</item>
+        <item>@drawable/russell</item>
+        <item>@drawable/norris</item>
+        <item>@drawable/nico</item>
+        <item>@drawable/lecrec</item>
+    </integer-array>
+    
+    <string-array name="data_driver_team">
+        <item>Red BUll Racing</item>
+        <item>Red BUll Racing</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Mclaren</item>
+        <item>Hass F1 Team</item>
+        <item>Ferrari</item>
+    </string-array>
+</resources>
