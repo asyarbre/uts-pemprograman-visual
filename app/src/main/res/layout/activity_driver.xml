@@ -27,9 +27,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
-            android:text="@string/last_name"
+            tools:text="@string/last_name"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/titilliumbold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_first_name" />
 
@@ -42,7 +42,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_photo_detail"
             tools:ignore="MissingConstraints"
-            tools:text="@string/first_name" />
+            tools:text="@string/first_name"
+            android:fontFamily="@font/titilliumregular"/>
 
         <TextView
             android:id="@+id/driver_team"
@@ -51,7 +52,7 @@
             android:layout_marginTop="52dp"
             android:layout_marginEnd="32dp"
             android:textSize="16sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/titilliumbold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_photo_detail"
             tools:text="@string/name_team" />
@@ -63,7 +64,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:textSize="16sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/titilliumbold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_last_name"
             tools:ignore="MissingConstraints"
@@ -76,7 +77,8 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:text="@string/world_championships"
-            android:textSize="12sp"
+            android:fontFamily="@font/titilliumregular"
+            android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_champ"
             tools:ignore="MissingConstraints" />
@@ -99,7 +101,7 @@
             android:layout_marginEnd="32dp"
             android:text="@string/dummy"
             android:textSize="16sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/titilliumbold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_team" />
 
@@ -110,7 +112,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:text="@string/podiums"
-            android:textSize="12sp"
+            android:fontFamily="@font/titilliumregular"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_podium" />
 
@@ -125,7 +128,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:text="@string/lorem" />
+            tools:text="@string/lorem"
+            android:fontFamily="@font/titilliumregular"/>
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -140,6 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
             android:text="@string/team"
+            android:fontFamily="@font/titilliumregular"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/driver_team"
             app:layout_constraintEnd_toEndOf="parent" />
