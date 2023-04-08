@@ -3,11 +3,14 @@
     <string name="title">F1 2023</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
-    <string name="team">Team</string>
+    <string name="name_team">Name Team</string>
     <string name="fullName">Full Name</string>
     <string name="title_driver">Driver F1</string>
     <string name="dummy">0</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="world_championships">World Championships</string>
+    <string name="podiums">Podiums</string>
+    <string name="team">Team</string>
 
     <string-array name="data_first_name">
         <item>Max</item>
