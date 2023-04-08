@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         val dataFirstName = resources.getStringArray(R.array.data_first_name)
         val dataLastName = resources.getStringArray(R.array.data_last_name)
         val dataPhotoDriver = resources.obtainTypedArray(R.array.data_photo_driver)
+        val dataPhotoDriverDetail = resources.obtainTypedArray(R.array.data_photo_driver_detail)
         val dataDriverTeam = resources.getStringArray(R.array.data_driver_team)
         val dataDriverChap = resources.getIntArray(R.array.data_driver_champ)
         val dataDriverPodium = resources.getIntArray(R.array.data_driver_podium)
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity() {
                 dataFirstName[i],
                 dataLastName[i],
                 dataPhotoDriver.getResourceId(i, -1),
+                dataPhotoDriverDetail.getResourceId(i, -1),
                 dataDriverTeam[i],
                 dataDriverChap[i],
                 dataDriverPodium[i],

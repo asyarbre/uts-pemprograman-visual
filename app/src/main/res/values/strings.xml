@@ -50,6 +50,19 @@
         <item>@drawable/nico</item>
         <item>@drawable/lecrec</item>
     </integer-array>
+
+    <integer-array name="data_photo_driver_detail">
+        <item>@drawable/max_detail</item>
+        <item>@drawable/checo_detail</item>
+        <item>@drawable/alonso_detail</item>
+        <item>@drawable/lewis_detail</item>
+        <item>@drawable/sainz_detail</item>
+        <item>@drawable/lance_detail</item>
+        <item>@drawable/russell_detail</item>
+        <item>@drawable/lando_detail</item>
+        <item>@drawable/nico_detail</item>
+        <item>@drawable/lecrec_detail</item>
+    </integer-array>
     
     <string-array name="data_driver_team">
         <item>Red Bull Racing</item>

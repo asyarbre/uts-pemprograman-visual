@@ -8,6 +8,7 @@ data class Driver(
     val firstName: String,
     val lastName: String,
     val driverPhoto: Int,
+    val driverPhotoDetail: Int,
     val driverTeam: String,
     val driverChamp: Int,
     val driverPodium: Int,

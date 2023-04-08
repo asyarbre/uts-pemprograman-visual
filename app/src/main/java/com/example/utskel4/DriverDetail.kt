@@ -1,5 +1,6 @@
 package com.example.utskel4
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -37,10 +38,21 @@ class DriverDetail : AppCompatActivity() {
             binding.driverFirstName.text = driver.firstName
             binding.driverLastName.text = driver.lastName
             binding.driverTeam.text = driver.driverTeam
-            binding.driverPhoto.setImageResource(driver.driverPhoto)
+            binding.driverPhotoDetail.setImageResource(driver.driverPhotoDetail)
             binding.driverChamp.text = driver.driverChamp.toString()
             binding.driverPodium.text = driver.driverPodium.toString()
             binding.driverDesc.text = driver.driverDesc
+
+            binding.shareBtn.setOnClickListener {
+                val intent = Intent(Intent.ACTION_SEND)
+                intent.type = "text/plain"
+                intent.putExtra(
+                    Intent.EXTRA_TEXT, """
+                    Hi! kamu akan membagikan informasi seputar driver ${driver.firstName} ${driver.lastName}, yang berasal dari team ${driver.driverTeam}
+                """.trimIndent()
+                )
+                startActivity(Intent.createChooser(intent, "Bagikan Ke :"))
+            }
         }
     }
 
