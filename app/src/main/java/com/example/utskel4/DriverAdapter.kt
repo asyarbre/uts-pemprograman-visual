@@ -1,5 +1,6 @@
 package com.example.utskel4
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,7 +23,12 @@ class DriverAdapter(private val listDriver: ArrayList<Driver>) : RecyclerView.Ad
 
         //activity on click
         holder.itemView.setOnClickListener() {
-
+            val intentDetail = Intent(holder.itemView.context, DriverDetail::class.java)
+            intentDetail.putExtra(
+                DriverDetail.EXTRA_DRIVER,
+                listDriver[holder.adapterPosition]
+            )
+            holder.itemView.context.startActivity(intentDetail)
         }
     }
 

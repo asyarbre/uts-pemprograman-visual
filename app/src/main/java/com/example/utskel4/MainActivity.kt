@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         val dataFirstName = resources.getStringArray(R.array.data_first_name)
         val dataLastName = resources.getStringArray(R.array.data_last_name)
         val dataPhotoDriver = resources.obtainTypedArray(R.array.data_photo_driver)
+        val dataDriverTeam = resources.getStringArray(R.array.data_driver_team)
+        val dataDriverChap = resources.getIntArray(R.array.data_driver_champ)
+        val dataDriverPodium = resources.getIntArray(R.array.data_driver_podium)
+        val dataDriverDesc = resources.getStringArray(R.array.data_driver_desc)
 
         var listDriver = ArrayList<Driver>()
 
@@ -35,7 +39,11 @@ class MainActivity : AppCompatActivity() {
             val driver = Driver(
                 dataFirstName[i],
                 dataLastName[i],
-                dataPhotoDriver.getResourceId(i, -1)
+                dataPhotoDriver.getResourceId(i, -1),
+                dataDriverTeam[i],
+                dataDriverChap[i],
+                dataDriverPodium[i],
+                dataDriverDesc[i]
             )
             listDriver.add(driver)
         }

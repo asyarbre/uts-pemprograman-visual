@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DriverDetail"
+            android:exported="false"
+            android:largeHeap="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""/>
+        </activity>
     </application>
 
 </manifest>
