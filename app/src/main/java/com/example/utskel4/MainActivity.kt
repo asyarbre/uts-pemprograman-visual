@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         val dataDriverTeam = resources.getStringArray(R.array.data_driver_team)
         val dataDriverChap = resources.getIntArray(R.array.data_driver_champ)
         val dataDriverPodium = resources.getIntArray(R.array.data_driver_podium)
+        val dataDriverCountry = resources.getStringArray(R.array.data_driver_country)
+        val dataDriverFlag = resources.obtainTypedArray(R.array.data_driver_flag)
         val dataDriverDesc = resources.getStringArray(R.array.data_driver_desc)
 
         var listDriver = ArrayList<Driver>()
@@ -45,6 +47,8 @@ class MainActivity : AppCompatActivity() {
                 dataDriverTeam[i],
                 dataDriverChap[i],
                 dataDriverPodium[i],
+                dataDriverCountry[i],
+                dataDriverFlag.getResourceId(i, -1),
                 dataDriverDesc[i]
             )
             listDriver.add(driver)

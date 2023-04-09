@@ -124,12 +124,14 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
+            android:fontFamily="@font/titilliumregular"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            tools:text="@string/lorem"
-            android:fontFamily="@font/titilliumregular"/>
+            app:layout_constraintTop_toBottomOf="@+id/driver_country"
+            tools:ignore="MissingConstraints"
+            tools:text="@string/lorem" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -158,6 +160,40 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/baseline_share_24" />
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/country"
+            android:textSize="14sp"
+            android:fontFamily="@font/titilliumregular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/driver_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/country"
+            android:textSize="16sp"
+            android:fontFamily="@font/titilliumbold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/country" />
+
+        <ImageView
+            android:id="@+id/driver_country_flag"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:srcCompat="@drawable/ic_launcher_background" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

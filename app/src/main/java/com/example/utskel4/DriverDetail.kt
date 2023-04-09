@@ -41,6 +41,8 @@ class DriverDetail : AppCompatActivity() {
             binding.driverPhotoDetail.setImageResource(driver.driverPhotoDetail)
             binding.driverChamp.text = driver.driverChamp.toString()
             binding.driverPodium.text = driver.driverPodium.toString()
+            binding.driverCountry.text = driver.driverCountry
+            binding.driverCountryFlag.setImageResource(driver.driverFlag)
             binding.driverDesc.text = driver.driverDesc
 
             binding.shareBtn.setOnClickListener {

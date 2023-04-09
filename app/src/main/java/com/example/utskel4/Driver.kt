@@ -12,5 +12,7 @@ data class Driver(
     val driverTeam: String,
     val driverChamp: Int,
     val driverPodium: Int,
+    val driverCountry: String,
+    val driverFlag: Int,
     val driverDesc: String
 ) : Parcelable

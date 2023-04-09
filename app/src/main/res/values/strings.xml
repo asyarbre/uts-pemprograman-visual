@@ -7,10 +7,11 @@
     <string name="fullName">Full Name</string>
     <string name="title_driver">Driver F1 2023</string>
     <string name="dummy">0</string>
-    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, deserunt mollit anim id est laborum.</string>
     <string name="world_championships">World Championships</string>
     <string name="podiums">Podiums</string>
     <string name="team">Team</string>
+    <string name="country">Country</string>
 
     <string-array name="data_first_name">
         <item>Max</item>
@@ -102,6 +103,32 @@
         <item>6</item>
         <item>0</item>
         <item>24</item>
+    </integer-array>
+
+    <string-array name="data_driver_country">
+        <item>Netherlands</item>
+        <item>Mexico</item>
+        <item>Spain</item>
+        <item>United Kingdom</item>
+        <item>Spain</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>Monaco</item>
+    </string-array>
+
+    <integer-array name="data_driver_flag">
+        <item>@drawable/netherlands</item>
+        <item>@drawable/mexico</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/monaco</item>
     </integer-array>
 
     <string-array name="data_driver_desc">
