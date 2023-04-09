@@ -24,6 +24,16 @@
         <item>Lando</item>
         <item>Nico</item>
         <item>Charles</item>
+        <item>Valtteri</item>
+        <item>Esteban</item>
+        <item>Oscar</item>
+        <item>Pierre</item>
+        <item>Zhou</item>
+        <item>Yuki</item>
+        <item>Kevin</item>
+        <item>Alexander</item>
+        <item>Logan</item>
+        <item>Nyck De</item>
     </string-array>
 
     <string-array name="data_last_name">
@@ -37,6 +47,16 @@
         <item>Norris</item>
         <item>Hulkenberg</item>
         <item>Lecrec</item>
+        <item>Bottas</item>
+        <item>Ocon</item>
+        <item>Piastri</item>
+        <item>Gasly</item>
+        <item>Guanyu</item>
+        <item>Tsunoda</item>
+        <item>Magnussen</item>
+        <item>Albon</item>
+        <item>Sergeant</item>
+        <item>Vries</item>
     </string-array>
 
     <integer-array name="data_photo_driver">
@@ -50,6 +70,16 @@
         <item>@drawable/norris</item>
         <item>@drawable/nico</item>
         <item>@drawable/lecrec</item>
+        <item>@drawable/bottas</item>
+        <item>@drawable/ocon</item>
+        <item>@drawable/piastri</item>
+        <item>@drawable/gasly</item>
+        <item>@drawable/zhou</item>
+        <item>@drawable/yuki</item>
+        <item>@drawable/kevin</item>
+        <item>@drawable/albon</item>
+        <item>@drawable/logan</item>
+        <item>@drawable/nyck</item>
     </integer-array>
 
     <integer-array name="data_photo_driver_detail">
@@ -63,6 +93,16 @@
         <item>@drawable/lando_detail</item>
         <item>@drawable/nico_detail</item>
         <item>@drawable/lecrec_detail</item>
+        <item>@drawable/bottas_detail</item>
+        <item>@drawable/ocon_detail</item>
+        <item>@drawable/oscar_detail</item>
+        <item>@drawable/gasly_detail</item>
+        <item>@drawable/zhou_detail</item>
+        <item>@drawable/yuki_detail</item>
+        <item>@drawable/kevin_detail</item>
+        <item>@drawable/albon_detail</item>
+        <item>@drawable/logan_detail</item>
+        <item>@drawable/nyck_detail</item>
     </integer-array>
     
     <string-array name="data_driver_team">
@@ -76,6 +116,16 @@
         <item>Mclaren</item>
         <item>Hass F1 Team</item>
         <item>Ferrari</item>
+        <item>Alfa Romeo</item>
+        <item>Alpine</item>
+        <item>Mclaren</item>
+        <item>Alpine</item>
+        <item>Alfa Romeo</item>
+        <item>AlphaTauri</item>
+        <item>Haas F1 Team</item>
+        <item>Williams</item>
+        <item>Williams</item>
+        <item>AlphaTauri</item>
     </string-array>
 
     <integer-array name="data_driver_champ">
@@ -88,6 +138,16 @@
         <item>0</item>
         <item>0</item>
         <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
         <item>0</item>
         <item>0</item>
     </integer-array>
@@ -103,6 +163,16 @@
         <item>6</item>
         <item>0</item>
         <item>24</item>
+        <item>67</item>
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
     </integer-array>
 
     <string-array name="data_driver_country">
@@ -116,6 +186,16 @@
         <item>United Kingdom</item>
         <item>Germany</item>
         <item>Monaco</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Denmark</item>
+        <item>Thailand</item>
+        <item>United States</item>
+        <item>Netherlands</item>
     </string-array>
 
     <integer-array name="data_driver_flag">
@@ -129,6 +209,16 @@
         <item>@drawable/uk</item>
         <item>@drawable/germany</item>
         <item>@drawable/monaco</item>
+        <item>@drawable/finland</item>
+        <item>@drawable/france</item>
+        <item>@drawable/australia</item>
+        <item>@drawable/france</item>
+        <item>@drawable/china</item>
+        <item>@drawable/japan</item>
+        <item>@drawable/denmark</item>
+        <item>@drawable/thailand</item>
+        <item>@drawable/us</item>
+        <item>@drawable/netherlands</item>
     </integer-array>
 
     <string-array name="data_driver_desc">
@@ -142,6 +232,16 @@
         <item>Lando Norris may not be named after Star Wars rebel Lando Calrissian - his Mum just liked the moniker - but he has flair and fighting spirit in bountiful supply. McLaren had the British teenager on their books for two years before fast-tracking him into F1’s galaxy of stars in 2019. A firecracker in his junior career, with a penchant for pole positions and wheel-to-wheel tussles, Norris didn’t let them down. Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.</item>
         <item>He’s the Superhero with the talent to become a racing superstar – if only he could get to flex his muscles with a top team. F1’s has shown incredible strength and stamina as a midfield marauder for Williams, Force India, Sauber, Renault, Racing Point and Aston Martin during a career spanning back to 2010 – and now he is back on the grid with Haas. In that rookie season, Hulkenberg mastered changing track conditions to take a brilliant pole position in Brazil, showing he had brains as well as brawn. Since then his ability to consistently hoover up the points has made him a highly valued team player. In 2015, his reputation grew once more when, on a weekend away from his day job, he won the classic Le Mans 24 Hours race for Porsche at the first time of asking.</item>
         <item>Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation.  Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone – to an ability to muscle his way through the pack. Winning back-to-back championships also taught Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing. Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen. </item>
+        <item>Learning his craft on Finnish roads of ice and snow, he was born to be a Grand Prix racer. Bottas explains that if you can drive on the frozen roads of his homeland then you can drive anywhere. Then there the Finnish mentality –reserved, diligent and calm the fast lane of F1 doesnt faze him. Making his F1 debut with Williams in 2013, Bottas soon became part of the family. Points and podiums followed with the reliable racer even amassing the most points without a win, a record he resented but that showcased his ability. The fact the Finn was such a points machine saw him suddenly promoted to the most coveted seat in F1 - Nico Rosberg vacant championship-winning seat at Mercedes.</item>
+        <item>Sacrifice, see – but it worked. 2014 saw Ocon break through in the world of single-seaters, as he beat a certain Max Verstappen to the European F3 title. Backed by Mercedes, he won the GP3 title the following year and was halfway through a season of DTM in 2016 when he was offered the chance to replace Rio Haryanto at the minnow Manor team from the Belgian Grand Prix onwards.</item>
+        <item>Born in Melbourne, just a stones throw away from the Australian Grand Prix venue, a young Oscar Piastris dreams of one day racing in Formula 1 were ignited by the sports star drivers roaring around his local streets, otherwise known as Albert Park. But it would take huge commitment and sacrifice to turn that dream into a reality, with a move to Europe – made by the likes of fellow countrymen Mark Webber and Daniel Ricciardo before him – the only way to go up against the best and catch the attention of the sports decision-makers.</item>
+        <item>If theres one man who knows how big a rollercoaster ride an F1 drivers career can be, its Pierre Gasly! The flying Frenchman was called up to make his 2017 debut in Malaysia in place of Daniil Kvyat and, after proving his mettle, he was named a Toro Rosso driver the following year.  A further 21 races into his fledgling career, Gasly was moved up again – this time to replace Red Bull big gun Daniel Ricciardo. Gasly seemed to have a knack of being in the right place at the right time – a quality thats equally handy on track. A series of impressive 2018 performances for Toro Rosso – including a brilliant fourth place in Bahrain – showed exciting promise for what he might do with the A team in 2019.</item>
+        <item>China has never boasted a Grand Prix starter among its citizens – but Zhou Guanyu is the driver charged with changing that state of affairs, after receiving the call-up to make his F1 debut for Alfa Romeo in 2022.  The Shanghai-born racer attended his home citys inaugural Grand Prix in 2004 at the age of five, cheering on his hero Fernando Alonso. But having caught the racing bug, the Chinese driver then set himself the ambitious goal of becoming his countrys first-ever F1 racer – achieving a feat that Ma Qinghua, the only other Chinese driver to take part in a Formula 1 weekend, never managed.</item>
+        <item>In the entire history of Formula 1, no Japanese driver has ever won a World Championship Grand Prix. Could Yuki Tsunoda be the first? Red Bull certainly think so, with the youngster very much on the path to their senior team if he continues to impress as he has done over the past few years. Tsunoda ascent to the top tier of motorsport was astonishingly rapid: he went from racing in Japanese F4 to a Formula 1 seat with AlphaTauri in just over three years, having arrived in Europe in 2019 with no knowledge of the circuits.</item>
+        <item>Call him a lone ranger or a maverick, but Magnussen is back in Formula 1 for one reason only – to race. He may be a second-generation F1 driver – following his father, Jan, onto the grid – but Magnussen idols are from the golden era of Grand Prix racing when the likes of Juan Manuel Fangio and Stirling Moss risked it all for the love of the sport.</item>
+        <item>Born in London but racing under the flag of Thailand, Alexander Albon first word was in fact Italian. That word was Ferrari – though it was with another Italian team that he got his big F1 break. Idolising Michael Schumacher and dreaming of one day racing in Formula 1, the junior Albon was pipped to the 2016 GP3 title by a certain Charles Leclerc. He then left his great friendship with George Russell trackside as he took the 2018 Formula 2 title fight down to the wire.</item>
+        <item>Logan Sargeant becomes F1 first American driver in almost eight years as he takes to the grid for the 2023 season, giving the country a home favourite to cheer once more. A prolific title winner in karting, championship glory eluded Sargeant after he made the transition to single-seater racing, but pole positions and race victories in almost every category he contested underlined his raw speed and potential. Indeed, finishing runner-up in F4 UAE, third in British F4 and third in F3 (having also made the podium at the prestigious Macau Grand Prix) showed he could be there or thereabouts in a variety of championships, with plenty of potential still to be untapped. </item>
+        <item>Nyck de Vries had to wait until he was 27 years old for a shot at racing in F1, but it was an opportunity the Dutchman grabbed with both hands to become one of the hottest options on the driver market and ultimately land a full-time deal with AlphaTauri. Well-versed with F1 machinery thanks to his Mercedes reserve role, which included several FP1 runs for the works and supplier teams in 2022-spec cars, De Vries slotted in seamlessly when Williams unexpectedly called him up to replace the unwell Alex Albon at the 2022 Italian Grand Prix.</item>
     </string-array>
 
     <string-array name="data_team_name">
