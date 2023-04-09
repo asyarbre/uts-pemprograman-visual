@@ -1,5 +1,6 @@
 package com.example.utskel4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -21,6 +22,18 @@ class MainActivity : AppCompatActivity() {
         myDriver = binding.rvDriver
         list.addAll(getListDriver())
         showDriverList()
+
+        //move to results page
+        binding.results.setOnClickListener {
+            val results = Intent(this@MainActivity, ResultsActivity::class.java)
+            startActivity(results)
+        }
+
+        //move to teams page
+        binding.teams.setOnClickListener {
+            val teams = Intent(this@MainActivity, TeamsActivity::class.java)
+            startActivity(teams)
+        }
 
     }
 

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    tools:context=".DriverDetail">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -26,12 +27,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            tools:text="@string/last_name"
-            android:textSize="20sp"
+            android:layout_marginTop="2dp"
             android:fontFamily="@font/titilliumbold"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/driver_first_name" />
+            app:layout_constraintTop_toBottomOf="@+id/driver_first_name"
+            tools:text="@string/last_name" />
 
         <TextView
             android:id="@+id/driver_first_name"
@@ -62,9 +63,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="24dp"
-            android:textSize="16sp"
+            android:layout_marginTop="26dp"
             android:fontFamily="@font/titilliumbold"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/driver_last_name"
             tools:ignore="MissingConstraints"
@@ -138,7 +139,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="318dp" />
+            app:layout_constraintGuide_begin="310dp" />
 
         <TextView
             android:id="@+id/textView"
