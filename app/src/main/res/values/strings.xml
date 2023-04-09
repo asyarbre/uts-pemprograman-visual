@@ -143,4 +143,82 @@
         <item>He’s the Superhero with the talent to become a racing superstar – if only he could get to flex his muscles with a top team. F1’s has shown incredible strength and stamina as a midfield marauder for Williams, Force India, Sauber, Renault, Racing Point and Aston Martin during a career spanning back to 2010 – and now he is back on the grid with Haas. In that rookie season, Hulkenberg mastered changing track conditions to take a brilliant pole position in Brazil, showing he had brains as well as brawn. Since then his ability to consistently hoover up the points has made him a highly valued team player. In 2015, his reputation grew once more when, on a weekend away from his day job, he won the classic Le Mans 24 Hours race for Porsche at the first time of asking.</item>
         <item>Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation.  Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone – to an ability to muscle his way through the pack. Winning back-to-back championships also taught Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing. Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen. </item>
     </string-array>
+
+    <string-array name="data_team_name">
+        <item>Red Bull Racing</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Mclaren</item>
+        <item>Alpine</item>
+        <item>Hass F1 Team</item>
+        <item>Alfa Romeo</item>
+        <item>AlphaTauri</item>
+        <item>Williams</item>
+    </string-array>
+
+    <integer-array name="data_team_car">
+        <item>@drawable/rb</item>
+        <item>@drawable/aston</item>
+        <item>@drawable/mercedes</item>
+        <item>@drawable/ferrari</item>
+        <item>@drawable/mclaren</item>
+        <item>@drawable/alpine</item>
+        <item>@drawable/haas</item>
+        <item>@drawable/alfa</item>
+        <item>@drawable/alphatauri</item>
+        <item>@drawable/williams</item>
+    </integer-array>
+
+    <string-array name="data_team_base">
+        <item>Milton Keynes, United Kingdom</item>
+        <item>Silverstone, United Kingdom</item>
+        <item>Brackley, United Kingdom</item>
+        <item>Maranello, Italy</item>
+        <item>Woking, United Kingdom</item>
+        <item>Enstone, United Kingdom</item>
+        <item>Kannapolis, United States</item>
+        <item>Hinwil, Switzerland</item>
+        <item>Faenza, Italy</item>
+        <item>Grove, United Kingdom</item>
+    </string-array>
+
+    <string-array name="data_team_chief">
+        <item>Christian Horner</item>
+        <item>Mike Krack</item>
+        <item>Toto Wolff</item>
+        <item>Frederic Vasseur</item>
+        <item>Andrea Stella</item>
+        <item>Otmar Szafnauer</item>
+        <item>Guenther Steiner</item>
+        <item>Alessandro Alunni Bravi</item>
+        <item>Franz Tost</item>
+        <item>James Vowles</item>
+    </string-array>
+
+    <string-array name="data_team_technical">
+        <item>Pierre Wache</item>
+        <item>Dan Fallows</item>
+        <item>Mike Elliott</item>
+        <item>Enrico Cardile</item>
+        <item>Peter Prodromou</item>
+        <item>Pat Fry</item>
+        <item>Simone Resta</item>
+        <item>Jan Monchaux</item>
+        <item>Jody Egginton</item>
+        <item>TBC</item>
+    </string-array>
+
+    <string-array name="data_team_desc">
+        <item>Red Bull were no strangers to F1 - as sponsors - prior to formally entering as a works team in 2004. Nonetheless, the scale of their success over the following decade was staggering. After a first podium in 2006, the team hit their stride in 2009, claiming six victories and second in the constructors standings. Over the next four seasons they were a tour de force, claiming consecutive title doubles between 2010 and 2013, with Sebastian Vettel emerging as the sports youngest quadruple champion. Now they are recapturing that glory with an equally exciting talent – one named Max Verstappen</item>
+        <item>Aston Martin original Formula 1 foray – over half a century ago – lasted just five races. This time, though, it serious. This F1 squad are no strangers to success, having won in their original guise of Jordan and most recently as Racing Point in 2020. Renowned for their ability to punch above their weight, and now with a two-time champion leading their driver line-up, Aston Martin are very much a team to watch</item>
+        <item>Mercedes modern F1 revival started with the creation of a works squad for 2010 - the platform for a meteoric rise up the Grand Prix order. The team generated huge excitement from the off with the sensational return of Michael Schumacher, but headlines soon followed on track: three podiums in their debut season, all via Nico Rosberg - who then claimed a breakthrough pole victory double at China in 2012.</item>
+        <item>For many, Ferrari and Formula 1 racing have become inseparable. The only team to have competed in every season since the world championship began, the Prancing Horse has grown from the humble dream of founder Enzo Ferrari to become one of the most iconic and recognised brands in the world. Success came quickly through the likes of Alberto Ascari and John Surtees</item>
+        <item>Since entering the sport in 1966 under the guidance and restless endeavour of eponymous founder Bruce, McLaren success has been nothing short of breathtaking. Five glittering decades have yielded countless victories, pole positions and podiums</item>
+        <item>Alpine may be a relatively new name to Formula 1, but Renault famous sportscar arm has plenty of motorsport heritage. The 2021 rebrand of the team marked the next step in Renault F1 revival, begun in 2016 with the takeover of the then-Lotus squad. Already race winners in their new guise, regular podiums and a tilt at the title must be their next target</item>
+        <item>The youngest team on the grid, Haas made their highly impressive debut in 2016, and in the process became the first all-American-led F1 squad in three decades. Founded by industrialist Gene Haas, they are based in the United States on the same Kannapolis, North Carolina facility as his championship-winning NASCAR Sprint Cup Series team, Stewart-Haas Racing.</item>
+        <item>The name Alfa Romeo boasts Formula 1 connections dating back to the championship inception in 1950. Fast forward to the 21st century and Italian flare combines with Swiss sensibilities in a new era for the team formerly known as Sauber.Having enjoyed considerable success in world sportscars, where he helped nurture the emerging talents of future F1 stars Michael Schumacher and Heinz-Harald Frentzen, Peter Sauber guided his eponymous squad into F1 in 1993.</item>
+        <item>Established in 2006 as a squad in which young drivers from Red Bull prodigious talent pool could cut their F1 teeth, AlphaTauri – originally named Toro Rosso – were formed from the ashes of the plucky Minardi team. Sebastian Vettel gave validity to the approach almost immediately, delivering a fairy-tale win in 2008, before going on to enjoy world championship success with parent team Red Bull Racing. Today the ethos of nurturing talent still holds true, though the Italian squad are no longer simply a B team but a constructor in their own right</item>
+        <item>Driven on by the brilliance and passion of the late Sir Frank Williams, Williams grew from humble beginnings to become a Formula 1 behemoth, unrivalled by all except Ferrari and McLaren in terms of enduring success. Over the past four decades the team has racked up Grand Prix wins and championship glory, and in the process nurtured some of the greatest talents in the sport, both in and out the cockpit.</item>
+    </string-array>
 </resources>

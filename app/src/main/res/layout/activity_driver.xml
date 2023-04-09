@@ -27,7 +27,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="2dp"
             android:fontFamily="@font/titilliumbold"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -50,12 +49,11 @@
             android:id="@+id/driver_team"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
             android:layout_marginEnd="32dp"
-            android:textSize="16sp"
             android:fontFamily="@font/titilliumbold"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/driver_photo_detail"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
             tools:text="@string/name_team" />
 
         <TextView
@@ -139,18 +137,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="310dp" />
+            app:layout_constraintGuide_begin="499dp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
-            android:text="@string/team"
             android:fontFamily="@font/titilliumregular"
+            android:text="@string/team"
             android:textSize="14sp"
-            app:layout_constraintBottom_toTopOf="@+id/driver_team"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/driver_photo_detail" />
 
         <ImageView
             android:id="@+id/share_btn"
@@ -190,7 +189,7 @@
             android:id="@+id/driver_country_flag"
             android:layout_width="30dp"
             android:layout_height="20dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
